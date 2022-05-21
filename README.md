@@ -1,3 +1,10 @@
+# 快速开始
+```
+npm install @xhs_npm/utils --save
+
+import { Util, Url, Env } from '@xhs_npm/utils';
+```
+
 # Util
 
 ### get
