@@ -1,0 +1,12 @@
+{
+  "name": "@xhs_npm/utils",
+  "version": "1.1.1",
+  "description": "",
+  "main": "dist/packages/default/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
