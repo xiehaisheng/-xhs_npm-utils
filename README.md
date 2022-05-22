@@ -1,5 +1,5 @@
 # 快速开始
-```
+```js
 npm install @xhs_npm/utils --save
 
 import { Util, Url, Env } from '@xhs_npm/utils';
@@ -125,7 +125,7 @@ Returns boolean
 解析 query 字符串
 
 **example**
-```
+```js
 import { Url } from '@xhs_npm/utils'; 
 
 Url.parseQuery('?a=1&b=2'); // { a: '1', b: '2' } 
@@ -149,7 +149,7 @@ query 对象
 序列化 query 对象
 
 example
-```
+```js
 import { Url } from '@xhs_npm/utils';
 
 Url.stringifyQuery({ a: 1, b: 2 }); // 'a=1&b=2' 
@@ -173,7 +173,7 @@ query 字符串
 	isAndroid: boolean
 
 example
-```
+```js
 import { Env } from '@xhs_npm/utils';
 
 Env.isAndroid; // true || false
