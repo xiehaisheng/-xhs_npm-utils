@@ -2,7 +2,7 @@
 ```js
 npm install @xhs_npm/utils --save
 
-import { Util, Url, Env } from '@xhs_npm/utils';
+import { Util, Url, Env, GisData } from '@xhs_npm/utils';
 ```
 
 # Util
